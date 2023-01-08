@@ -122,11 +122,6 @@ nav > a {
   text-decoration: none;
 }
 
-a.mail::before {
-  content: "\2709";
-  margin-right: 5px;
-}
-
 .mail:hover,
 .mail:focus {
   color: var(--nav-hover);
@@ -136,11 +131,6 @@ a.mail::before {
   font-weight: 400;
   color: var(--text);
   text-decoration: none;
-}
-
-a.tel::before {
-  content: "\260E";
-  margin-right: 5px;
 }
 
 .tel:hover,
@@ -208,12 +198,6 @@ a.tel::before {
 
 /* section 2 */
 
-.section-2-benefits {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 8px;
-}
-
 .section-2-item {
   width: 264px;
   height: 112px;
@@ -222,6 +206,7 @@ a.tel::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .section-2-icon {
@@ -231,21 +216,8 @@ a.tel::before {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* 
-.section-2-icons-bg {
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  border-radius: 4px;
-  display: fl;
-  align-content: center;
-}
 
-/* .sectiob-2-icons {
-  display: flex;
-  align-items: center;
-} */
-*/ .title {
+.title {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -386,7 +358,7 @@ a.tel::before {
 }
 
 .customers {
-  padding: 130px 156px 120px;
+  padding: 120px 0;
 }
 
 .customers-list {
@@ -396,7 +368,7 @@ a.tel::before {
 }
 
 .customers-item {
-  width: calc((100% - 168px) / 6);
+  width: 168px;
   height: 88px;
 }
 
@@ -567,10 +539,6 @@ h2 {
 
 .project-card:hover,
 .project-card:focus {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
